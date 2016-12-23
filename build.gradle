@@ -29,4 +29,11 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web-services')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	compile('org.springframework.boot:spring-boot-devtools:1.4.2.RELEASE')
+	compile('org.springframework.boot:spring-boot-sample-data-jpa-archetype:1.0.2.RELEASE')
+	compile('org.springframework.boot:spring-boot-sample-data-rest-archetype:1.0.2.RELEASE')
+	compile('org.projectlombok:lombok:1.16.12')
+	compile('com.h2database:h2:1.4.193')
+
+
 }
